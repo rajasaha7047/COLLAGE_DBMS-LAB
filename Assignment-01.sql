@@ -20,9 +20,7 @@ INSERT INTO Employee VALUES
 SELECT * FROM Employee;
 
 -- Q5. Display only the employee name and department.
-SELECT Employee_Name, Department
-FROM Employee;
+SELECT Employee_Name, Department FROM Employee;
 
 -- Q6. Display details of employees belonging to the IT department.
-SELECT * FROM Employee
-WHERE Department = 'IT';
+SELECT * FROM Employee WHERE Department = 'IT';
