@@ -1,18 +1,12 @@
 --  Assignment 1
 
--- Q1. Create a database named company.
+-- Q1. Create a database named Raja_173.
 CREATE DATABASE Raja_173;
 
 USE Raja_173;
 
 -- Q2. Create an employee table with the given attributes.
-CREATE TABLE Employee (
-    Employee_ID INT,
-    Employee_Name VARCHAR(50),
-    Department VARCHAR(30),
-    Designation VARCHAR(30),
-    Salary DECIMAL(10,2)
-);
+CREATE TABLE Employee (Employee_ID INT, Employee_Name VARCHAR(50), Department VARCHAR(30), Designation VARCHAR(30), Salary DECIMAL(10,2));
 
 -- Q3. Insert the given 5 employee records.
 INSERT INTO Employee VALUES
